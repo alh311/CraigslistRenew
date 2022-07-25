@@ -1,12 +1,11 @@
-﻿using System;
-
-namespace CRSetup
+﻿namespace CRSetup
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main()
         {
-            Console.WriteLine("Hello World!");
+            var setup = new SetterUpper();
+            setup.Run();
         }
     }
 }
