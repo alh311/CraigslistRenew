@@ -1,6 +1,6 @@
 ﻿namespace CraigslistRenew
 {
-    public struct Settings
+    public class Settings
     {
         public string Email { get; private set; }
         public string Password { get; private set; }

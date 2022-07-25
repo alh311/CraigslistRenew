@@ -1,28 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
-
-  <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp3.0</TargetFramework>
-    <PublishSingleFile>true</PublishSingleFile>
-    <SelfContained>true</SelfContained>
-    <RuntimeIdentifier>osx-x64</RuntimeIdentifier>
-    <PublishTrimmed>true</PublishTrimmed>
-    <PublishReadyToRun>true</PublishReadyToRun>
-    <Configurations>Release;Debug</Configurations>
-  </PropertyGroup>
-
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugType></DebugType>
-  </PropertyGroup>
-  <ItemGroup>
-    <PackageReference Include="Selenium.WebDriver" Version="4.3.0" />
-    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="103.0.5060.13400" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Remove="settings.txt" />
-    <None Remove="Test.txt" />
-    <None Remove="README.md" />
-    <None Remove="LICENSE" />
-    <None Remove=".gitignore" />
-  </ItemGroup>
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>netcoreapp3.0</TargetFramework>
+		<PublishSingleFile>true</PublishSingleFile>
+		<SelfContained>true</SelfContained>
+		<RuntimeIdentifier>osx-x64</RuntimeIdentifier>
+		<PublishTrimmed>true</PublishTrimmed>
+		<PublishReadyToRun>true</PublishReadyToRun>
+		<Configurations>Release;Debug</Configurations>
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+		<DebugType>
+		</DebugType>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="Selenium.WebDriver" Version="4.3.0" />
+		<PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="103.0.5060.13400" />
+	</ItemGroup>
 </Project>
