@@ -20,5 +20,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Remove="settings.txt" />
+    <None Remove="Test.txt" />
+    <None Remove="README.md" />
+    <None Remove="LICENSE" />
+    <None Remove=".gitignore" />
   </ItemGroup>
 </Project>

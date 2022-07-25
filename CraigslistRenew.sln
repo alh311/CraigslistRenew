@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.809.7
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CraigslistRenew", "CraigslistRenew.csproj", "{51B0DCDD-F321-46D6-91EF-7841377F1DAF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CraigslistRenew", "CraigslistRenew\CraigslistRenew.csproj", "{51B0DCDD-F321-46D6-91EF-7841377F1DAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRSetup", "CRSetup\CRSetup.csproj", "{BC68ABF0-3910-4FDA-B713-48D886E6FDDE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FF5A9627-792B-463E-A61A-6CA2B5084DC2}"
+	ProjectSection(SolutionItems) = preProject
+		ProjectNotes.txt = ProjectNotes.txt
+		README.md = README.md
+		LICENSE = LICENSE
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +25,10 @@ Global
 		{51B0DCDD-F321-46D6-91EF-7841377F1DAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51B0DCDD-F321-46D6-91EF-7841377F1DAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51B0DCDD-F321-46D6-91EF-7841377F1DAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC68ABF0-3910-4FDA-B713-48D886E6FDDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC68ABF0-3910-4FDA-B713-48D886E6FDDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC68ABF0-3910-4FDA-B713-48D886E6FDDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC68ABF0-3910-4FDA-B713-48D886E6FDDE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

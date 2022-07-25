@@ -19,4 +19,4 @@ This can be copied from the osx-x64 folder.
 
 ***** Running the EXE in Terminal *****
 
-./CraigslistRenew
+./AppName
