@@ -3,17 +3,24 @@ This is a console app for renewing your listings on Craigslist.  You can manuall
 
 ## Usage Requirements
 * Built for MacOS
-	* The included binaries run on MacOS.  I'm assuming it will not run out-of-the box on Windows, so you may have to download the source code and re-publish it for Windows use.
+	* The included binaries run on MacOS.  I'm assuming it will not run out-of-the box on Windows, so you may have to download the source code and re-publish it for use on Windows.
+
+## Installation (Mac)
+1. You have three options for installation:
+	* Download the zip from the app folder.  This is the easiest.
+	* Download the individual binaries from the app folder.
+	* Clone the repo and build the binaries from source.
+2. Ensure the three binaries (*CRSetup*, *CraigslistRenew*, *chromedriver*) are located in the same folder.
+3. Ensure the three binaries have execution permissions.  I've found installing from zip retains the permissions while downloading the separate binaries does not.  YMMV.  To grant execution permissions see the *Execution Permissions* section below.
 
 ## How to Use (Mac)
-1. Either download the pre-built apps or build them from source.  *CRSetup*, *CraigslistRenew*, and *chromedriver* should all be in the same folder.
-2. Navigate to the app folder in the Terminal app.
+1. Navigate to the app folder in the Terminal app.
 	* If you don't know how to do this: https://techwiser.com/how-to-navigate-to-a-folder-in-terminal-mac/
-3. Run the setup app using the command: `./CRSetup` and follow the instructions.  This only needs to be run once, prior to first use.
-4. Run CraigslistRenew using the command: `./CraigslistRenew`.  The app output will show you which listings have been renewed.  You can run this every couple days, when the 'renew' option becomes available on Craigslist.
+2. Run the setup app using the command: `./CRSetup` and follow the instructions.  This only needs to be run once, prior to first use.  You can run this again if you need to update your email address, password, or user agent.  If you receive a "Permission denied" error, see the *Execution Permissions* section below.
+3. Run CraigslistRenew using the command: `./CraigslistRenew`.  The app output will show you which listings have been renewed.  You can run this every couple days, when the 'renew' option becomes available on Craigslist.
 
-#### Note:
-If you received a "Permission denied" error when trying to run the apps, you will need to give each of the three apps (*CRSetup*, *CraigslistRenew*, *chromedriver*) execution privileges.  In Terminal you can use the following command to grant execution privileges inside the app folder:
+## Execution Permissions
+In Terminal you can use the following command to grant execution privileges to each binary inside the app folder:
 ```
 chmod +x <appName>
 ```
