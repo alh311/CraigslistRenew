@@ -1,4 +1,7 @@
-# CraigslistRenew
+# CraigslistRenew [DEPRECATED]
+This app is **deprecated**.  I have created a new, platform agnostic app in Node.js over here: https://github.com/alh311/CraigslistRenewJS
+The node app runs much more quickly and doesn't need the constant package updates this console app needed.  Plus, it can run on Windows and Linux.  Win-win-win!
+
 This is a console app for renewing your listings on Craigslist.  You can manually run the app whenever you want to renew your renewable listings.  This doesn't repost old, non-renewable listings.
 
 ## Usage Requirements
